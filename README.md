@@ -1,5 +1,7 @@
 ## NSwag: `NullReferenceException` when using `JsonPatchDocument<T>`
 
+> https://github.com/RicoSuter/NSwag/issues/3147
+
 I get a `NullReferenceException` if I have any controller receiving a `JsonPatchDocument<T>` instance.
 
 

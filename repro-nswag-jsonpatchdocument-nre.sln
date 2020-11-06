@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReproNSwagJsonPatchDocumentNRE", "src\ReproNSwagJsonPatchDocumentNRE\ReproNSwagJsonPatchDocumentNRE.csproj", "{535E08F1-38A8-4427-918D-78F157EB322F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{46E9D074-6647-4D7F-A416-C7491B869DDA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{F154943C-F021-4B79-9BE6-987C95855D8F}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		CODEOWNERS = CODEOWNERS
+		Directory.Build.props = Directory.Build.props
+		global.json = global.json
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{535E08F1-38A8-4427-918D-78F157EB322F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{535E08F1-38A8-4427-918D-78F157EB322F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{535E08F1-38A8-4427-918D-78F157EB322F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{535E08F1-38A8-4427-918D-78F157EB322F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{535E08F1-38A8-4427-918D-78F157EB322F} = {46E9D074-6647-4D7F-A416-C7491B869DDA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68DAF062-3C75-427E-92CC-4560935BB0F1}
+	EndGlobalSection
+EndGlobal
